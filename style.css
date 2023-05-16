@@ -111,6 +111,11 @@ body {
         width: 100%;
     }
     
+    .button-row {
+        width: 60%;
+        justify-content: space-evenly;
+    }
+
 }
 
 .hero-logo img {
@@ -135,7 +140,7 @@ body {
 }
 
 .button-row {
-    width: 60%;
+    width: 30%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
@@ -150,9 +155,17 @@ body {
     border: 3px solid white;
     border-radius: 5%;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .button-row button:hover {
     background-color: rgba(205, 167, 22, 70%);
 
+}
+
+.info {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
 }
