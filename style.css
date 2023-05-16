@@ -268,10 +268,12 @@ body {
 }
 
 .world-info-container {
-    border: 6px solid black;
+    border: 6px solid #953c41;
+    background-color: #f2cf71;
+    border-radius: 5px;
     padding: 10px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -292,5 +294,64 @@ body {
 }
 
 .world-info-rest {
-    border: 10px solid yellow;
+    /* border: 10px solid yellow; */
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.world-info-rest div {
+    flex: 1;
+}
+
+.world-info-rest img {
+    width: 100px;
+}
+
+.world-info-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.world-info-elements div {
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.world-info-chara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.world-info-chara div {
+    flex: 1;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .world-info-chara img {
+    width: 100%;
+} */
+
+.world-info-path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.world-info-path div {
+    flex: 1;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
